@@ -1,0 +1,13 @@
+scripts:
+  hello:
+    - echo "hello world!!"
+  foo:
+    - echo "foo"
+  bar:
+    - echo "bar"
+  buz:
+    - echo "buz"
+  foo-bar-buz:
+    - stack run -- foo
+    - stack run -- bar
+    - stack run -- buz
